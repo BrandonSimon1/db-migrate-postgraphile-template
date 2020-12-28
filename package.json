@@ -1,0 +1,22 @@
+{
+  "name": "db-migrate-template",
+  "version": "1.0.0",
+  "main": "",
+  "repository": "git@github.com:BrandonSimon1/db-migrate-template.git",
+  "author": "Brandon Simon <brandon.nb.simon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.10.0",
+    "@types/pg": "^7.14.5",
+    "db-migrate-pg": "^1.2.2",
+    "pg": "^8.4.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "db-migrate-create": "db-migrate create --sql-file --config config.json",
+    "db-migrate-up": "db-migrate up --config config.json",
+    "db-migrate-down": "db-migrate down --config config.json",
+    "db-migrate-reset": "db-migrate reset --config config.json"
+  }
+}
