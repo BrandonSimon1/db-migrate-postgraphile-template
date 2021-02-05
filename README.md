@@ -1,4 +1,4 @@
-This repository is a template for managing the state of a posgres database in raw sql using the db-migrate library. Please see the package.json for available commands.
+This repository is a template for managing the state of a posgres database in raw sql using the db-migrate library. Initial migrations have been provided that initialize the database for use with postraphile. Please see the package.json for available commands.
 
 The database connection information is passed through the environment; please see config.json for details.
 
